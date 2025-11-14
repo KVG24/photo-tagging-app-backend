@@ -1,1 +1,1 @@
-# photo-tagging-app-backend
+# Photo Tagging App (Backend)

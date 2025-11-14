@@ -1,0 +1,31 @@
+{
+    "name": "photo-tagging-app-backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "node app.js --watch",
+        "start": "node app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/KVG24/photo-tagging-app-backend.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "commonjs",
+    "bugs": {
+        "url": "https://github.com/KVG24/photo-tagging-app-backend/issues"
+    },
+    "homepage": "https://github.com/KVG24/photo-tagging-app-backend#readme",
+    "dependencies": {
+        "@prisma/client": "^6.19.0",
+        "cors": "^2.8.5",
+        "dotenv": "^17.2.3",
+        "express": "^5.1.0"
+    },
+    "devDependencies": {
+        "prisma": "^6.19.0"
+    }
+}
