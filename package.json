@@ -5,7 +5,8 @@
     "main": "index.js",
     "scripts": {
         "dev": "node app.js --watch",
-        "start": "node app.js"
+        "start": "node app.js",
+        "populate": "node db/populateCharacters.js"
     },
     "repository": {
         "type": "git",
