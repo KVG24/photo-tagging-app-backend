@@ -7,7 +7,11 @@ async function getCharacters() {
 }
 
 async function getLeaderboard() {
-    return await prisma.leaderboard.findMany();
+    return await prisma.leaderboard.findMany({
+        orderBy: {
+            time: "asc",
+        },
+    });
 }
 
 async function createLeaderboardRecord(mode, name, time) {

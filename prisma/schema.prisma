@@ -28,5 +28,5 @@ model Leaderboard {
   id   Int    @id @default(autoincrement())
   mode String
   name String
-  time String
+  time Int
 }

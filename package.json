@@ -6,7 +6,9 @@
     "scripts": {
         "dev": "node app.js --watch",
         "start": "node app.js",
-        "populate": "node db/populateCharacters.js"
+        "populateCharacters": "node db/populateCharacters.js",
+        "populateLeaderboard": "node db/populateLeaderboard.js",
+        "populate": "npm run populateCharacters && npm run populateLeaderboard"
     },
     "repository": {
         "type": "git",
